@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "Generates a new quote each time the user clicks a button, or automatically after a set period.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link":"link", 
+            "github_link":"https://github.com/tyler-mcdonald/random-quote-generator",
+            "image_urls":[
+                "/public/images/project-screenshots/quotes-1.jpg", 
+                "/public/images/project-screenshots/quotes-2.jpg"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "Student Roster",
+            "description": "Website using data pagination and filtering to display student data.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link":"link", 
+            "github_link":"https://github.com/tyler-mcdonald/student-roster",
+            "image_urls":[
+                "/public/images/project-screenshots/student-roster-1.jpg", 
+                "/public/images/project-screenshots/student-roster-2.jpg"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "Interactive form for a conference registration.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link":"link", 
+            "github_link":"https://github.com/tyler-mcdonald/interactive-form",
+            "image_urls":[
+                "/public/images/project-screenshots/interactive-form-1.jpg", 
+                "/public/images/project-screenshots/interactive-form-2.jpg"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Phrase Hunter",
+            "description": "A phrase guessing game built using OOP concepts.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link":"link", 
+            "github_link":"https://github.com/tyler-mcdonald/phrase-hunter",
+            "image_urls":[
+                "/public/images/project-screenshots/phrase-hunter-1.jpg", 
+                "/public/images/project-screenshots/phrase-hunter-2.jpg"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Employee Directory",
+            "description": "A company directory displaying employee information using a public API service.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link":"link", 
+            "github_link":"https://github.com/tyler-mcdonald/employee-directory",
+            "image_urls":[
+                "/public/images/project-screenshots/employee-directory-1.jpg", 
+                "/public/images/project-screenshots/employee-directory-2.jpg"
+            ]
+        }
+    ]
+}
