@@ -4,34 +4,31 @@ html(lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Tyler McDonald
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    script(src="https://kit.fontawesome.com/4971fd3e37.js" crossorigin="anonymous")
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='./static/images/profile.jpg', alt='tyler mcdonald')
+          img.thumbnail(src='/static/images/profile.jpg', alt='tyler mcdonald')
         .dev-intro-box
 
-          //- Replace with your name
           h5 Tyler McDonald
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p I'm a former accountant who decided to learn JavaScript and switch careers. I am learning to become a full stack JavaScript developer. I love Jesus, my wife, and my friends and family. I also love to hike and travel.
+          p Hi, I'm Tyler. I'm currently studying to become a full stack JavaScript developer. I decided to pursue a career in software development because I love using technology to make people's lives better. I plan to use my development skills to help businesses and individuals solve problems in their jobs and lives. 
+          p Besides that, I'm passionate about Jesus, my wife, and my friends and family. I also love to hike, travel, read, and make homemade lattes for people. 
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          //- Replace with your name — this is for the mobile layout
           span Tyler McDonald
 
       block content

@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: rgb(255, 255, 255);
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -80,7 +80,7 @@ a {
 
 .box {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 40px 50px 30px;
   background: #fefefe;
   border-bottom: 1px solid #eaeaea;
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #e8e19138;
 }
 
 .sidebar-info-box {
@@ -159,7 +159,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #000000;
   margin: 0 auto 0.5rem;
 }
 
@@ -167,16 +167,16 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #4c4c4c
 }
 
 .sidebar a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #000;
 }
 
 .header {
@@ -362,3 +362,31 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* 
+  Error pages
+*/
+.error {
+  max-width: 1200px;
+  padding: 40px 50px 30px;
+}
+
+.error h1 {
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  margin: 0 auto 8px;
+}
+
+.error pre {
+  text-rendering: optimizeLegibility;
+  font-size: 125%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eaeaea;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* 
+  Testing
+*/
