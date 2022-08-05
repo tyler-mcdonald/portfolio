@@ -6,6 +6,7 @@ const port = 3000;
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
+// Router
 app.use(router);
 
 // 404 errors
