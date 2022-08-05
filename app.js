@@ -9,13 +9,6 @@ app.use("/static", express.static("public"));
 // Router
 app.use(router);
 
-// 404 errors
-app.use((req, res, next) => {
-  const err = new Error("The requested page does not exist");
-  err.status = 404;
-  next(err);
-});
-
 // Global errors
 app.use((err, req, res, next) => {
   if (err.status === 404) {

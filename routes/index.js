@@ -25,4 +25,10 @@ router.get("/projects/:id", (req, res, next) => {
   }
 });
 
+// 404 errors
+router.use((req, res, next) => {
+  console.error("404 error: Page not found");
+  res.status(404).render("page-not-found");
+});
+
 module.exports = router;
