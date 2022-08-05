@@ -3,20 +3,17 @@ const router = express.Router();
 const data = require("../data.json");
 const { projects } = data;
 
+// Home
 router.get("/", (req, res, next) => {
   res.render("index", { projects });
 });
 
+// About
 router.get("/about", (req, res, next) => {
   res.render("about");
 });
 
-router.get("/error", (req, res, next) => {
-  const err = new Error("Server error");
-  err.status = 500;
-  next(err);
-});
-
+// Projects
 router.get("/projects/:id", (req, res, next) => {
   const project = projects[req.params.id];
   if (project) {
