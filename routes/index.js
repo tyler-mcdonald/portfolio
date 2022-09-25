@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const data = require("../data.json");
-const { projects } = data;
+const projects = data.projects.reverse();
 
 // Home
 router.get("/", (req, res, next) => {
@@ -15,7 +15,8 @@ router.get("/about", (req, res, next) => {
 
 // Projects
 router.get("/projects/:id", (req, res, next) => {
-  const project = projects[req.params.id];
+  const id = req.params.id;
+  const project = projects.find((project) => project.id === id);
   if (project) {
     res.render("project", { project });
   } else {
