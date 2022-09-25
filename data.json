@@ -103,5 +103,6 @@
                     "landscape_1": "/static/images/projects/courses-database-2.png"
                 }
         }
-    ]
+    ],
+    "profilePic": "/static/images/profile.jpg"
 }
