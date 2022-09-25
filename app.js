@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const router = require("./routes");
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
@@ -23,5 +23,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log("Listening on port 3000");
+  console.log(`Listening on port ${port}`);
 });
