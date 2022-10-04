@@ -48,7 +48,7 @@ export const About = () => {
               were many processes in our team that I noticed were being done
               manually via data entry, manual calculations, etc. I knew there
               was a lot of room for automation to speed things up and reduce
-              errors. So I began developing various tools with Excel and our
+              errors. I began developing various tools with Excel and our
               financial database to automate processes. After creating tools
               such as payroll calculation tables, a position vacancy budget
               tracker, and implementing a database file feed system, I realized
@@ -60,11 +60,11 @@ export const About = () => {
             <p>
               In my next role within the same company, I had the opportunity to
               work directly with software developers to bring our company a
-              custom sofware solution. I worked directly with the devloper team
-              to discuss business needs, business logic, and help design the UX
-              and UI. I also alpha tested the software and tried my best to
-              break everything that they created. I learned a lot through this
-              experience, such as how developers go from start to finish on
+              custom software solution. I worked directly with the developer
+              team to discuss business needs, business logic, and help design
+              the UX and UI. I also alpha tested the software and tried my best
+              to break everything that they created. I learned a lot through
+              this experience, such as how developers go from start to finish on
               delivering work to clients. I also knew that this was something I
               wanted to do as a career. The pieces were coming together to what
               I was truly passionate about. It became clear that I was going to
@@ -75,10 +75,10 @@ export const About = () => {
                 <h3>Bootcamp</h3>
                 <p>
                   When I eventually came to this realization, I knew that I
-                  didn't want to wait around forever to make the move. So after
+                  didn't want to wait around forever to make the move. After
                   some discussions with friends, family and (most importantly)
                   my wife, I decided to quit my job and study full time to
-                  become a software developer. I took the risk becase life is
+                  become a software developer. I took the risk because life is
                   too short to waste time waiting for an opportunity to come my
                   way. I chose instead to create the opportunity.
                 </p>
